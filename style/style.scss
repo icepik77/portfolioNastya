@@ -119,18 +119,10 @@ body{
         padding-left: 6%;
         display: flex;
         flex-wrap: wrap;
-        & span {
-            font-family: Oswald;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 24px;
-            line-height: 36px;
-            color: #D73526;
-        }
-        & :nth-child(1) span{
+        & :nth-child(1) .portfolio__text-bottom{
             color: black;
         }
-        & :nth-child(2) span{
+        & :nth-child(2) .portfolio__text-bottom{
             color: black;
         }
     }
@@ -590,7 +582,8 @@ body{
     }
     .portfolio{
         &__title{
-            top: 1%;
+            top: 3%;
+                
         }
         &__card{
             margin-right: 10px;
@@ -604,6 +597,26 @@ body{
             margin-top: 0;
             max-width: 150px;
             line-height: 25px;
+        }
+        &__first-row{
+            & :nth-child(3) .portfolio__text-bottom{
+                color: black;
+            }
+            & :nth-child(4) .portfolio__text-bottom{
+                color: black;
+            }
+            & :nth-child(5) .portfolio__text-bottom{
+                color: black;
+            }
+            & :nth-child(6) .portfolio__text-bottom{
+                color: black;
+            }
+            & :nth-child(7) .portfolio__text-bottom{
+                color: black;
+            }
+            & :nth-child(8) .portfolio__text-bottom{
+                color: black;
+            }
         }
     }
 }
